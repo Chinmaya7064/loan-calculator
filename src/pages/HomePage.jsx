@@ -65,7 +65,7 @@ function HomePage() {
               type="number"
               value={loanAmount}
               onChange={(e) => setLoanAmount(e.target.value)}
-              placeholder="e.g., 250000"
+              placeholder="250000"
               variant="outlined"
             />
           </Box>
@@ -78,7 +78,7 @@ function HomePage() {
               type="number"
               value={interestRate}
               onChange={(e) => setInterestRate(e.target.value)}
-              placeholder="e.g., 8.5"
+              placeholder="8.5"
               variant="outlined"
             />
           </Box>
@@ -91,7 +91,7 @@ function HomePage() {
               type="number"
               value={loanTerm}
               onChange={(e) => setLoanTerm(e.target.value)}
-              placeholder="e.g., 5"
+              placeholder="5"
               variant="outlined"
             />
           </Box>
